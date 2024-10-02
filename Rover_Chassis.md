@@ -9,14 +9,17 @@ previous years. In order to acomplish this, I taught myself sheet metal CAD
 and design, and did a full redesign of the frame in sheet metal. this was an 
 ambitous departure from all previous designs, and allowed for much easier 
 manufactoring, and reduction in weight, fewer overall parts, and vastly 
-increased mounting space both inside and outside the frame.
+increased mounting space both inside and outside the frame. 
+
+On the left is the old design, and on the right my updated design in sheet 
+metal.
 
 <p float="left">
   <img src="images/Old_Frame_CAD.jpg" alt="Old Frame CAD" width="45%" />
   <img src="images/Frame%20CAD.png" alt="Frame CAD" width="45%" />
 </p>
 
-<span>Old Frame 1</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>My Design</span>
+
 
 
 ## Design Requirements ##
