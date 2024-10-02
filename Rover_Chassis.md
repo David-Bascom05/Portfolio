@@ -12,16 +12,16 @@ manufactoring, and reduction in weight, fewer overall parts, and vastly
 increased mounting space both inside and outside the frame
 
 <div style="text-align: center;">
-  <p float="left" style="display: inline-block; margin: 0 20px;">
-    <img src="images/Old_Frame_CAD.jpg" alt="Old Frame CAD" width="100%" />
+  <div style="display: inline-block; margin: 0 20px;">
+    <img src="images/Old_Frame_CAD.jpg" alt="Old Frame CAD" style="max-width: 300px; height: auto;" />
     <br />
     <span>Old Frame CAD</span>
-  </p>
-  <p float="left" style="display: inline-block; margin: 0 20px;">
-    <img src="images/Frame%20CAD.png" alt="Frame CAD" width="100%" />
+  </div>
+  <div style="display: inline-block; margin: 0 20px;">
+    <img src="images/Frame%20CAD.png" alt="Frame CAD" style="max-width: 300px; height: auto;" />
     <br />
     <span>Frame CAD</span>
-  </p>
+  </div>
 </div>
 
 
