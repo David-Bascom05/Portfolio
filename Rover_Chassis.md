@@ -37,4 +37,8 @@ This assembly consists of seven parts, made out of bent 9 gauge aluminum. Key mo
 
 ## Analysis ##
 
+<img src="https://github.com/username/repository/raw/main/Frame_ANSYS.png" alt="Frame ANSYS" width="500">
+
+## Testing and Opperation ##
+
 
