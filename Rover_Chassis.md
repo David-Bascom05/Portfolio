@@ -1,4 +1,4 @@
-# Rover Chassis #
+# Rover Chassis 2022#
 
 ## Overview ##
 
@@ -19,10 +19,17 @@ metal.
   <img src="images/Frame%20CAD.png" alt="Frame CAD" width="45%" />
 </p>
 
-
-
-
 ## Design Requirements ##
+
+<ol>
+    <li>Suspension mounts must be able to hold up the weight of the rover, which interfaces at two 0.5in shoulder bolts.</li>
+    <li>The arm mount must withstand the loading from the arm, carrying a 5kg weight at full extension.</li>
+    <li>Provide an enclosed space for electronics that allows for easy removal of the electrical core.</li>
+    <li>Provide integrated panel mounts to run wiring to different parts of the rover.</li>
+    <li>Provide mounting for the onboard lab.</li>
+    <li>Provide mounting for cameras.</li>
+</ol>
+
 
 
 
