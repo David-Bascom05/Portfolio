@@ -16,7 +16,7 @@ increased mounting space both inside and outside the frame.
   <img src="images/Frame%20CAD.png" alt="Frame CAD" width="45%" />
 </p>
 
-Old Frame                  My Design
+<span>Old Frame 1</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Text 2</span>My Design
 
 ## Design Requirements ##
 
