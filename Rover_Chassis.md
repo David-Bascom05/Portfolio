@@ -11,10 +11,20 @@ ambitous departure from all previous designs, and allowed for much easier
 manufactoring, and reduction in weight, fewer overall parts, and vastly 
 increased mounting space both inside and outside the frame
 
-<p float="left">
-  <img src="images/Old_Frame_CAD.jpg" alt="Old Frame CAD" width="45%" />
-  <img src="images/Frame%20CAD.png" alt="Frame CAD" width="45%" />
-</p>
+<div style="text-align: center;">
+  <p float="left" style="display: inline-block; margin: 0 20px;">
+    <img src="images/Old_Frame_CAD.jpg" alt="Old Frame CAD" width="100%" />
+    <br />
+    <span>Old Frame CAD</span>
+  </p>
+  <p float="left" style="display: inline-block; margin: 0 20px;">
+    <img src="images/Frame%20CAD.png" alt="Frame CAD" width="100%" />
+    <br />
+    <span>Frame CAD</span>
+  </p>
+</div>
+
+
 
 
 ## Design Requirements ##
