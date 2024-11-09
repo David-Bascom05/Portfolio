@@ -71,6 +71,19 @@ data was collected in order to calculate youngs modulus.
   </tr>
 </table>
 
+As you can see, the yeild stress and ultimate stress are basically the same from the measurments 
+we were able to take. The material is incredably brittle, however it does have a decently high 
+yeild point (just under half the yield stress of Aluminum at its best performance). However, 
+there was also a relatively high variance in this data. The first dog bone, which failed 
+substantually before the rest, had a very visable void along the fracture line, which I believe
+is why it failed at such a low value. I also believe that smaller voids were probably present in
+samples 2 and 3 as well, but not quite as obvious. This is 1) becuase of the substantual difference
+between the failure stresses of each part, and 2) because both fell short of the expected yeild 
+point. 
 
+From this testing, we decided that the process was not yet reliable enough to use on the rover 
+without a way to eliminate viods in the parts during the molding process. While it did meet the 
+minimum strength requirements we needed in these tests, the posibility that a large void could 
+substantually weaken the part was too much of a risk.
 
 
