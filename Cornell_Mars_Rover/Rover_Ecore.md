@@ -13,7 +13,7 @@ electrical problems on the rover.
 Here, you can see the old ecore (Left) compaired to the new ecore (Right)
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="main/images/Old_Ecore.jpg" alt="Old Ecore" style="height: 400px; width: auto;">
+  <img src="/images/Old_Ecore.jpg" alt="Old Ecore" style="height: 400px; width: auto;">
   <img src="images/NewEcore.png" alt="New Ecore" style="height: 400px; width: auto;">
 </div>
 
