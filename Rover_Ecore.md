@@ -8,8 +8,9 @@ to manage. To acomplish this, I completely restuctured how the ecore itself func
 changing it form basically a box encloser to a revoable power distrabution unit, with built 
 in wire roghting, and made it fully removable from the frame for easier maintience. 
 
-<p float="left">
-  <img src="images/Old_Ecore.jpg" alt="Old Ecore" width="45%" />
-  <img src="images/NewEcore.png" alt="New Ecore" width="45%" />
-</p>
+<div style="display: flex; justify-content: space-between;">
+  <img src="images/Old_Ecore.jpg" alt="Old Ecore" style="width: 45%; height: auto;" />
+  <img src="images/NewEcore.png" alt="New Ecore" style="width: 45%; height: auto;" />
+</div>
+
 
