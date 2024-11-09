@@ -9,8 +9,9 @@ changing it form basically a box encloser to a revoable power distrabution unit,
 in wire roghting, and made it fully removable from the frame for easier maintience. 
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="images/Old_Ecore.jpg" alt="Old Ecore" style="width: 45%; height: auto;" />
-  <img src="images/NewEcore.png" alt="New Ecore" style="width: 45%; height: auto;" />
+  <img src="images/Old_Ecore.jpg" alt="Old Ecore" style="height: 400px; width: auto;">
+  <img src="images/NewEcore.png" alt="New Ecore" style="height: 400px; width: auto;">
 </div>
+
 
 
