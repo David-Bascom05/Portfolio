@@ -49,34 +49,27 @@ test on each one.
     <th style="border: 1px solid #ddd; padding: 8px;">Yield Stress (psi)</th>
     <th style="border: 1px solid #ddd; padding: 8px;">Ultimate Stress (psi)</th>
     <th style="border: 1px solid #ddd; padding: 8px;">Youngs Modulus (psi)</th>
-    <th style="border: 1px solid #ddd; padding: 8px;">Link to Data Set</th>
-    <th style="border: 1px solid #ddd; padding: 8px;">Notes</th>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">1</td>
     <td style="border: 1px solid #ddd; padding: 8px;">12,072.31</td>
     <td style="border: 1px solid #ddd; padding: 8px;">12,072.31</td>
     <td style="border: 1px solid #ddd; padding: 8px;">No data</td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">2</td>
     <td style="border: 1px solid #ddd; padding: 8px;">15,632.85</td>
     <td style="border: 1px solid #ddd; padding: 8px;">15,632.85</td>
     <td style="border: 1px solid #ddd; padding: 8px;">5.33 × 10<sup>6</sup></td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px;">3</td>
     <td style="border: 1px solid #ddd; padding: 8px;">14,784.78</td>
     <td style="border: 1px solid #ddd; padding: 8px;">14,784.78</td>
     <td style="border: 1px solid #ddd; padding: 8px;">6.76 × 10<sup>6</sup></td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
-    <td style="border: 1px solid #ddd; padding: 8px;"></td>
   </tr>
 </table>
+
 
 
 
