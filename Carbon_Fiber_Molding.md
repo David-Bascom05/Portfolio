@@ -41,7 +41,8 @@ to escape, which was an added benifit.
 ## Testing ##
 
 To test the yeild strength of the forged parts, I made 3 dog bone samples, and ran a tensile 
-test on each one. 
+test on each one. The first test was done without the use of an extentiometer, so not strain
+data was collected in order to calculate youngs modulus.
 
 <table style="width:100%; border-collapse: collapse;">
   <tr>
