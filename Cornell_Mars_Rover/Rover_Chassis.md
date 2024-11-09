@@ -15,8 +15,8 @@ On the left is the old design, and on the right my updated design in sheet
 metal.
 
 <p float="left">
-  <img src="images/Old_Frame_CAD.jpg" alt="Old Frame CAD" width="45%" />
-  <img src="images/Frame%20CAD.png" alt="Frame CAD" width="45%" />
+  <img src="/images/Old_Frame_CAD.jpg" alt="Old Frame CAD" width="45%" />
+  <img src="/images/Frame%20CAD.png" alt="Frame CAD" width="45%" />
 </p>
 
 ## Design Requirements ##
@@ -37,7 +37,7 @@ This assembly consists of seven parts, made out of bent 9 gauge aluminum. Key mo
 
 ## Analysis ##
 
-<img src="images/Frame_ANSYS.png" alt="Old Frame CAD" width="45%" />
+<img src="/images/Frame_ANSYS.png" alt="Old Frame CAD" width="45%" />
 
 ## Testing and Opperation ##
 
