@@ -12,10 +12,11 @@ project where I needed to be able to control a servo.
 ## Design Requirements ##
 
 <ol>
-    <li>Suspension mounts must be able to hold up the weight of the rover, which interfaces at two 0.5in shoulder bolts (value 30kg total)</li>
-    <li>The arm mount must withstand the loading from the arm, carrying a 5kg weight at full extension. (value 90Nm)</li>
-    <li>Provide an enclosed space for electronics that allows for easy removal of the electrical core.</li>
-    <li>Provide integrated panel mounts to run wiring to different parts of the rover.</li>
-    <li>Provide mounting for the onboard lab.</li>
-    <li>Provide mounting for cameras.</li>
+    <li>Board must be able to independantly control a large number of servos (at least 10)</li>
+    <li>Must be able to comunicate over CANFD</li>
+    <li>Must be able to accept a range of volatges (10 to 30V) and output the correct level for both the servos and on board components</li>
+    <li>Must be able to provide enough current for all servos opperating simultanously and thier normal load current</li>
+    <li>Should Be compact as possbile, and easy to mount in any enclosure</li>
+    <li>Should be a 2 layer, single sided assembly to reduce cost</li>
+    <li>Power and CAN should have auxilary connectors to enable daisy chaining</li>
 </ol>
