@@ -20,3 +20,24 @@ project where I needed to be able to control a servo.
     <li>Should be a 2 layer, single sided assembly to reduce cost</li>
     <li>Power and CAN should have auxilary connectors to enable daisy chaining</li>
 </ol>
+
+## Design ##
+
+This board is centered around the use of the PCA9685PW LED driver, which is the chip 
+that the board uses to generate PWM signals. This chip was choosen both because of the 
+large asortment of open source projects and libraries available, as well as its ability
+to generate up to 16 independent PWM signals.
+
+The microcontroller is a STM32G431CBT6, which was chosen primarily for its compatability 
+with CANFD. I wanted to use an STM32 microcontroller due to there easy to use IDE and 
+the abundence of resources I could find online, as this was my first design with a 
+microcontroller. The other components are ones that I was farmiliar with from other 
+designs that I had worked on before, and were choosen for ease over optimal functionality.
+
+<img src="/images/Servo_Board_Layout.png" alt="Frame CAD" width="35%" />
+
+
+
+
+
+
