@@ -36,6 +36,27 @@ designs that I had worked on before, and were choosen for ease over optimal func
 
 <img src="/images/Servo_Board_Layout.png" alt="Frame CAD" width="35%" />
 
+The layout is a work in progress, but this was my first attempt at it. Some key aspects 
+of the layout are that I wanted all the connectors on one side for easy wiring and 
+the possiblity of carrier board integration in the future. I also wanted easy access to 
+all the connectors for the servo plug in, again so that wiring is as easy as possible. 
+However, I think there is quite a bit of space optimization that can be done, and the 
+considerable distance that the CAN RX and TX lines need to travel from the microcontroller
+to the CAN tranciever is a definite downside. The buck boost converter used step down the 
+voltage to 6V is also a mess on the layout, and probably over designed. The current 
+version is able to handle up to 10A of continous current, which for only 16 hobby servos 
+is very unlikely to occer. It is probably wiser to reduce the requirments on the converter,
+and impliment a current monitoring cuicuit, or modify the overvoltage protection cuircut to 
+prvent high currents in addition to the curent short curcuit protection
+
+## Testing ##
+
+As I said before, this board is a work in progress, and I am currently working on a breadboard
+prototype. Using a NUCLEO board and an off the shelf breakout for the PCA9685PW, I was sucessfully 
+able to drive multiple independant servos simultaniously. In order to start working on CANFD 
+implimentation, I designed a custom breakout for my CANFD chip, and I am currently learning how to 
+write the firmware to drive it, as well as learning about how to design my own protocol for 
+comunicating over CANFD. 
 
 
 
