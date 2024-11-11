@@ -1,4 +1,4 @@
-# Ecore 2023#
+# Ecore 2023 #
 
 ## Overview ##
 
