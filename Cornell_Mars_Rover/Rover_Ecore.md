@@ -34,7 +34,15 @@ Here, you can see the old ecore (Left) compaired to the new ecore (Right)
 
 <img src="/images/Ecore_Insides.png" alt="Old Ecore" style="height: 400px; width: auto;">
 
+This design revoles around the use of a false floor to rought wires under. This meathod allowed me to
+drastically reduce clutter from wires, and improve organization. It also provided easy mounting for all
+the connectors to be embeded into the structure of the ecore. This meant that for both boards and external
+systems that plug into the ecore, all wiring was perminent, and any system became plug-and-play, with no
+additional integration work required when taking parts on and off the rover. This plug-and-play system 
+drastically reduced the time to assemble the rover, which was critically important for exchanging systems
+during testing, hot swapping components that broke, and reassembling the rover at competition. 
 
+Having the Ecore be fully removable 
 
 
 
