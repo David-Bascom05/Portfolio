@@ -37,7 +37,7 @@ give test points, or to allow this to be integrated with a different microcontro
 
 ## Testing ##
 
-[![Hall Effect Testing](\images/Hall_Effect_Thumbnail.png)](https://youtu.be/xiG5vrSRzsc)
+[![Hall Effect Testing](/images/Hall_Effect_Thumbnail.png)](https://youtu.be/xiG5vrSRzsc)
 
 To test, I started with the breadboard circuit in the video linked above. In this test,
 I was able to find a midpoint between two magnets, and use that midpoint as my zero. 
