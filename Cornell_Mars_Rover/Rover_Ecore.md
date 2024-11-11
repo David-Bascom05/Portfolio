@@ -17,5 +17,20 @@ Here, you can see the old ecore (Left) compaired to the new ecore (Right)
   <img src="/images/NewEcore.png" alt="New Ecore" style="height: 400px; width: auto;">
 </div>
 
+## Design Requirements ##
 
+<ol>
+    <li>Houses all required electrical equipment for rover operation</li>
+    <li>Runs wiring to all systems</li>
+    <li>Adequate cooling for desert conditions, up to 120 degree heat</li>
+    <li>Easily understandable wire routing and management</li>
+    <li>Fully removable for maintenance and accessibility</li>
+    <li>Plug and play capability for all boards and external systems</li>
+    <li>No disassembly required for transport</li>
+</ol>
+
+
+## Design ##
+
+<img src="/images/Ecore_Insides.jpg" alt="Old Ecore" style="height: 400px; width: auto;">
 
