@@ -13,7 +13,7 @@ to the driver.
 ## Design Requirements ##
 
 <ol>
-    <li>Board must be able to output a signal to a <a href="https://mjbots.com/products/moteus-c1">moteus c1 BLDC controller</a></li>
+    <li>Board must be able to output a signal to a <a href="https://mjbots.com/products/moteus-c1">moteus-c1 BLDC controller</a></li>
     <li>Board must be able to mount on the output side of a Laifual LSN-14 Harmonic Gearbox</li>
     <li>The board should not require any additional power or wiring than what can be provided from the moteus board</li>
     <li>Must be able to detect when a magnet is present, and send a signal to the moteus</li>
