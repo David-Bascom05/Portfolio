@@ -37,7 +37,21 @@ give test points, or to allow this to be integrated with a different microcontro
 
 ## Testing ##
 
-[![Watch the video](path/to/your-image.png)](https://youtu.be/xiG5vrSRzsc)
+[![Hall Effect Testing](path/to/your-image.png)](https://youtu.be/xiG5vrSRzsc)
+
+To test, I started with the breadboard circuit in the video linked above. In this test,
+I was able to find a midpoint between two magnets, and use that midpoint as my zero. 
+This meathod of zeroing is used because the hall effect goes low as soon as it detects 
+a magnectic field, which means that it triggers just off the edge of the magnet by some 
+unknown amount. This could be measured, but it beleived it would be easier to use two 
+magnets, and have the offset cancel out. This implimentation has the added benifit of 
+also acting as a digital limit switch, which may be useful for projects where you need 
+to limit the range of motion on an acuator. 
+
+<img src="/images/Hall_Effect_Real_Board.png" alt="Old Frame CAD" width="45%" style="transform: rotate(90deg);" />
+
+I also used the same testing rig on both the breadboard sensor and the PCB, seen in the 
+image above.
 
 
 
