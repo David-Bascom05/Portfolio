@@ -1,4 +1,4 @@
-# Servo Driver V1.0 #
+# Servo Driver V1.0, 2024 #
 
 # Overview #
 
