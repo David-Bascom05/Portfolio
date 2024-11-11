@@ -21,7 +21,7 @@ to the driver.
     <li>Should be easy to integrate with other controllers if there is ever a desire to use this with a different microcontroller</li>
     <li>Sensor should be as small as possible</li>
     <li>Sensor should be able to detect a magnet up to 2mm away</li>
-    <li>Sensor should be accurate to within 0.1 deg on the output</li>
+    <li>Sensor should be accurate to within 0.5 deg on the output</li>
 </ol>
 
 
@@ -48,10 +48,30 @@ magnets, and have the offset cancel out. This implimentation has the added benif
 also acting as a digital limit switch, which may be useful for projects where you need 
 to limit the range of motion on an acuator. 
 
-<img src="/images/Hall_Effect_Real_Board.png" alt="Old Frame CAD" width="45%" style="transform: rotate(180 deg);" />
+<img src="/images/Hall_Effect_Real_PCB.png" alt="Old Frame CAD" width="45%" style="transform: rotate(180 deg);" />
 
-I also used the same testing rig on both the breadboard sensor and the PCB, seen in the 
-image above.
+In the above photo you can see my first two attempts at turning this into a custom board. 
+In the first itteration (Left) I used a logic inverter circuit to invert the signal coming 
+off the hall effect. I quickly realized however, that this extra circuit servered no real 
+purpose, and I was better of using the extra space for more pin headers to improve board 
+debuging and integration with other devices in the future. I implimented these changes in 
+version 2 (Right), and the changes actaully turned out to be very helpful when I needed to 
+use this with an arduino.
+
+Each version of this was cycle tested using the rig above, and a python script that I ran 
+to run 200, 500, 1000, and eventually 5,000 times. The python script moved the motor to a 
+random postition, ran the zero logic, and then compared the measured zero against the preset
+"correct" zero that was already set. In each senario, and for every board, I got approzimately 
+the same resaults:
+
+| Version     | Accuracy on the motor | Accuracy on Output (4:1) | Expected for 50:1 | Expected for 100:1 |
+|-------------|-----------------------|--------------------------|-------------------|--------------------|
+| Breadboard  | 6.1                   | 1.525                    | 0.122             | 0.061              |
+| PCB V1      | 5.8                   | 1.45                     | 0.116             | 0.058              |
+| PCB V2      | 5.8                   | 1.45                     | 0.116             | 0.058              |
+
+
+
 
 
 
