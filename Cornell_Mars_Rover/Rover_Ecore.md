@@ -34,3 +34,12 @@ Here, you can see the old ecore (Left) compaired to the new ecore (Right)
 
 <img src="/images/Ecore_Insides.png" alt="Old Ecore" style="height: 400px; width: auto;">
 
+
+
+
+
+
+
+
+
+
