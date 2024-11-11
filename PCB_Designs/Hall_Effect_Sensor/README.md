@@ -10,3 +10,32 @@ starting position. It can then go though a homing sequence, and when a magnet
 passes over the sensor, it can detect that, and send the change of state back 
 to the driver. 
 
+## Design Requirements ##
+
+<ol>
+    <li>Board must be able to output a signal to a <a href="https://mjbots.com/products/moteus-c1">moteus c1 BLDC controller</a></li>
+    <li>Board must be able to mount on the output side of a Laifual LSN-14 Harmonic Gearbox</li>
+    <li>The board should not require any additional power or wiring than what can be provided from the moteus board</li>
+    <li>Must be able to detect when a magnet is present, and send a signal to the moteus</li>
+    <li>Once the magnet is no longer present, the board should return to the off state</li>
+    <li>Should be easy to integrate with other controllers if there is ever a desire to use this with a different microcontroller</li>
+    <li>Sensor should be as small as possible</li>
+    <li>Sensor should be able to detect a magnet up to 2mm away</li>
+    <li>Sensor should be accurate to within 0.1 deg on the output</li>
+</ol>
+
+
+## Design ##
+
+The design is based around the DRV5033AJQDBZRQ1 Hall Effect chip. It is a non-latching 
+hall effect sesnor that is low when no magnetic field is detected. Other than that the 
+design is very simple: a power and signal LED show the board state, and a JST connector
+provides power and connects the signal line from the moteus controller. the connector is
+a bit large for this board, but was chosen to match the contector on the moteus in order 
+to simplify wiring. Optional pin headers are also located on the back of the board to 
+give test points, or to allow this to be integrated with a different microcontroller. 
+
+## Testing ##
+
+
+
