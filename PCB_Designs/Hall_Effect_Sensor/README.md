@@ -99,7 +99,16 @@ the same resaults:
   </tbody>
 </table>
 
+As you can see, on the 4:1 testing rig I used, this sensor was not quite accurate enough
+for my intended application. I tried various ways to improve the accuracy, but they did
+little or nothing to improve the data. I may have been able to achieve the accuracy I 
+needed with a higher reduction, but implimenting this on the system it was intended for 
+would have been cost prohibative, and I ultimately decided that using auxilary encoders
+was the more logical solution than continouing to itterate on this porject.
 
+In the future if I was to revisit this protect, I would update it with a more precice 
+hall effect, and move the hall effect itself to the other side of the board to avoid 
+collision issues with the connector that came up in testing.
 
 
 
