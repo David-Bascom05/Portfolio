@@ -64,11 +64,41 @@ random postition, ran the zero logic, and then compared the measured zero agains
 "correct" zero that was already set. In each senario, and for every board, I got approzimately 
 the same resaults:
 
-| Version     | Accuracy on the motor | Accuracy on Output (4:1) | Expected for 50:1 | Expected for 100:1 |
-|-------------|-----------------------|--------------------------|-------------------|--------------------|
-| Breadboard  | 6.1                   | 1.525                    | 0.122             | 0.061              |
-| PCB V1      | 5.8                   | 1.45                     | 0.116             | 0.058              |
-| PCB V2      | 5.8                   | 1.45                     | 0.116             | 0.058              |
+<table>
+  <thead>
+    <tr>
+      <th>Version</th>
+      <th>Accuracy on the motor</th>
+      <th>Accuracy on Output (4:1)</th>
+      <th>Expected for 50:1</th>
+      <th>Expected for 100:1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Breadboard</td>
+      <td>±6.1</td>
+      <td>±1.525</td>
+      <td>±0.122</td>
+      <td>±0.061</td>
+    </tr>
+    <tr>
+      <td>PCB V1</td>
+      <td>±5.8</td>
+      <td>±1.45</td>
+      <td>±0.116</td>
+      <td>±0.058</td>
+    </tr>
+    <tr>
+      <td>PCB V2</td>
+      <td>±5.8</td>
+      <td>±1.45</td>
+      <td>±0.116</td>
+      <td>±0.058</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 
