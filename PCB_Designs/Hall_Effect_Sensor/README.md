@@ -48,7 +48,7 @@ magnets, and have the offset cancel out. This implimentation has the added benif
 also acting as a digital limit switch, which may be useful for projects where you need 
 to limit the range of motion on an acuator. 
 
-<img src="/images/Hall_Effect_Real_Board.png" alt="Old Frame CAD" width="45%" style="transform: rotate(90deg);" />
+<img src="/images/Hall_Effect_Real_Board.png" alt="Old Frame CAD" width="45%" style="transform: rotate(180deg);" />
 
 I also used the same testing rig on both the breadboard sensor and the PCB, seen in the 
 image above.
