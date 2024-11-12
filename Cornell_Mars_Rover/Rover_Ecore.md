@@ -42,7 +42,20 @@ additional integration work required when taking parts on and off the rover. Thi
 drastically reduced the time to assemble the rover, which was critically important for exchanging systems
 during testing, hot swapping components that broke, and reassembling the rover at competition. 
 
-Having the Ecore be fully removable 
+
+## Testing ##
+
+Having the Ecore be fully removable was a huge improvemnt regarding maintinence. It allowed the electrical 
+team to work on it off the rover, which was both much easier, and allowed the other subteams to work on the 
+mechanical aspects of the rover at the same time. This was yet another way in which this design helped save 
+us time, which led to us being able to move much more quickly at competition.
+
+We didn't have any issues with the wiring settup, which was a massive improvement in organisation from last
+year. However, by mounting connectors on the side, lots of holes were added to the side pannel. This ment 
+that lots of sand was able to get in, which did become an issue when we got hit by a sand strom during the 
+last event of the competition. 
+
+
 
 
 
