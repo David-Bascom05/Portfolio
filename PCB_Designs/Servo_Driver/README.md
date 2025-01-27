@@ -1,11 +1,13 @@
-# Servo Driver V1.0, 2024 #
+# Servo Driver, 2024 #
 
 # Overview #
 
 The goal of this project is to create a custom servo driver that can controll a large 
 number of servos independantly and comunicate over canfd. This was not designed with 
 a particular project in mind, but more as an addaptable board that I could use in any 
-project where I needed to be able to control a servo. 
+project where I needed to be able to control a servo. I also wanted this board to be 
+able to comunicate over the same protocal as the mjbots moteus boards, which I have 
+used in many of my other projects.
 
 <img src="/images/Servo_Board_3D.png" alt="Frame CAD" width="35%" />
 
@@ -14,7 +16,7 @@ project where I needed to be able to control a servo.
 <ol>
     <li>Board must be able to independantly control a large number of servos (at least 10)</li>
     <li>Must be able to comunicate over CANFD</li>
-    <li>Must be able to accept a range of volatges (10 to 30V) and output the correct level for both the servos and on board components</li>
+    <li>Must be able to accept a range of volatges (12 to 30V) and output the correct level for both the servos and on board components</li>
     <li>Must be able to provide enough current for all servos opperating simultanously and thier normal load current</li>
     <li>Should Be compact as possbile, and easy to mount in any enclosure</li>
     <li>Should be a 2 layer, single sided assembly to reduce cost</li>
