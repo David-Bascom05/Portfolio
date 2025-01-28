@@ -51,7 +51,7 @@ have added to assembly cost by making it a double sided assembly. Becasue of thi
 tempurture senor is placed as close as possible to the regulator, but it is safe to assume
 that the reading is not entirely accurate.
 
-<img src="/images/Servo_Board_V2_Layout.png" alt="Frame CAD" width="45%" />
+<img src="/images/Servo_Board_V2_Layout.png" alt="Frame CAD" width="50%" />
 
 The layout is optimized reduce board size as much as possbile. This was done to enable 
 the board to be used in a variaty of projects, including those where space is a premium.
