@@ -43,7 +43,7 @@ can  be continously provided to all servos, in which case the LM25145RGYR provid
 overcurrent protection. This particuar design is meant to accept a large range of 
 voltages, causing the effiency to decrease rather sharply at low current. To account for 
 this, a shottcky diode is added to the main high current loop to midigate the effects of 
-_________.
+reverse recovery losses.
 
 Current and temputure sensing are also integrated onto the board. While it would have been
 more optimal to place the temputure sensor directly under the buck regulator, it would 
