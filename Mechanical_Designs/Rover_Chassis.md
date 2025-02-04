@@ -32,13 +32,39 @@ metal.
 
 ## Design ##
 
-This assembly consists of seven parts, made out of bent 9 gauge aluminum. Key mounting points, such as for the arm and suspension, are reinforced with quarter inch plates, which surve two key purposes: dispersing the high local loads from the mounting screws over a larger surface area to prevent high stress concentration in the weaker sheet metal, and to facilitate easy mounting by providing a place for screws to thread into. Internal plates also reinforce the frame from the inside. The center of the frame where the arm is mounted acts similar to a simply supported beam. Two supports connect the top and bottom of the frame to rienforce the center, preventing that "beam" from bending under the high loading conditions from the arm. A third reinforcement plate connects the two sides of the frame together down the middle, helping to resist any torsional loads coming from the suspension during climbing. 
+This assembly consists of seven parts, made out of bent 9 gauge aluminum. Key 
+mounting points, such as for the arm and suspension, are reinforced with quarter
+inch plates, which surve two key purposes: dispersing the high local loads from 
+the mounting screws over a larger surface area to prevent high stress concentration
+in the weaker sheet metal, and to facilitate easy mounting by providing a place 
+for screws to thread into. Internal plates also reinforce the frame from the inside.
+The center of the frame where the arm is mounted acts similar to a simply supported
+beam. Two supports connect the top and bottom of the frame to rienforce the center,
+preventing that "beam" from bending under the high loading conditions from the arm. 
+A third reinforcement plate connects the two sides of the frame together down the 
+middle, helping to resist any torsional loads coming from the suspension during 
+climbing. 
 
 
 ## Analysis ##
 
 <img src="/images/Frame_ANSYS.png" alt="Old Frame CAD" width="45%" />
 
+I used ANSYS to model the most extreme loading case on the chassis, which was the 
+arm holding a 5kg weight at maximun extension. This was done as a surface model 
+using symatry to reduce compute time. Rivet connections modeled as general joints 
+with spring elements. Cylidrical supports were used to model the connection to 
+suspension and loading was modeled using a remote force on the area that the arm 
+is bolted to the frame. The frame was found to have a factor of safety of 1.5 before 
+yeild, which was deamed to be acceptable due to the extreme conditions we modeled. 
+
 ## Testing and Opperation ##
+
+The frame did very well in testing, easily supporting the weight of the arm even under 
+high loading conditions. It was a very rigit design, providing a very stable mounting
+platform for all systems regardless of load.Although we did not plan on lifting heavy
+weight at full extension during opperation, the frame was able to support this loading.
+During opperation the frame also survive several full speed crashes without incuding 
+any damage.
 
 
