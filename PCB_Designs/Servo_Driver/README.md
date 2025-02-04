@@ -66,46 +66,15 @@ Another downside of this layout is that I would have much prefered to have 4 mou
 instead of 3, however I could not figure out a way to do this without adding substantually 
 to the boards size.
 
-## Firmware ##
-
-The firmware for this board was writen using C on the STM32CubeIDE. I wrote a custom CANFD
-protocal, from which the board recives and sends signals to the main controller. The first 
-4 bits of the payload is reserved to identify which servo is being requested to move. The 
-next two bits specify the command type, position, velocity, or dyagnostic. Velocity mode 
-has yet to be implimented on the PCA9685PW driver, but the option to add that capability 
-remains. The next 12 bits are reserved for position control (if the message is a position 
-command type), which allows increadably high accuracy, even for servos with a large range 
-of motors. If the message is a dignostic type, those bits indicate settup information that 
-the board needs in order to opperate. The next bit is a binary of if a responce is requested, 
-and the next 4 bits are reserved for fault handling.
-
-A custom driver was writen for the PCA9685PW chip that allows for position control. When a 
-servo object is initialized in software, it sends a diagnostic message to the board containing
-the range of the servo, which is stored in a struct. When a position message is sent, the 
-possition is added to the struct, and the stuct is passed into a function that generates a PWM 
-signal corresponding to a fraction of the servos opperational range. This implimentation allows 
-the controller to account for different ranges of motion on every servo while reducing the amount 
-of data that needs to be sent via CAN. This also allows position data to be stored on the 
-microcontroller to be queried later if needed.
-
-## Software ##
-
-The software to control this board is writen in python. Each servo is initialized as an object
-of the servo class (taking a CANID and ServoID), which sends a dyagnositc message to the board 
-encoded with the servo's operational range as stated above. The set_pos() meathod takes in the 
-desigered position and if a respoence is requested. When a responce is requested, the struct in 
-the firmware is passed back in the same format as the sent message. That responce is broken down 
-and saved in a responce object, which can be printed or have its attributes accessed to be used 
-elseware.
-
 ## Testing ##
 
 During testing, the board performed very well. The first version had an inproperly sized 
-inductor on the buck converter. This caused ripple voltage on the 6V output, but this was 
+inductor on the buck converter. This caused ripple voltage on the 6V output, which was 
 later corrected. The board was successfully able to drive all 16 servos simultanously with 
 a high positional accuracy and low latency. The protetective meansures of the board also 
 worked well, triggering the overcurrent protection before the 20A maximum of the board was
 reached. 
+
 
 
 
