@@ -60,6 +60,8 @@ yeild, which was deamed to be acceptable due to the extreme conditions we modele
 
 ## Testing and Opperation ##
 
+<img src="/images/9j2mvf.gif" alt="Old Frame CAD" width="45%" />
+
 The frame did very well in testing, easily supporting the weight of the arm even under 
 high loading conditions. It was a very rigit design, providing a very stable mounting
 platform for all systems regardless of load.Although we did not plan on lifting heavy
