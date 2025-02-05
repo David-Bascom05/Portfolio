@@ -1,3 +1,3 @@
-## FDCAN Driver ##
+# FDCAN Driver #
 
 ## Overview ##
