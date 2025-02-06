@@ -1,4 +1,4 @@
-# Smart Telescope Prototype 2024 #
+# Smart Telescope Prototype 2025 #
 
 ## Overview ##
 
@@ -6,19 +6,16 @@ This is a personal project that I worked on over the summer. Its objective is to
 my current telescope mount with a motorized version that is capable of tracking and 
 targeting celectial bodies. I also want it to avoid as much of the manual calibration as
 possible that is inharent in many comersially available smart telescope designs. This 
-first design was a proof-of concept prototype, where I wanted to prove ____- things:
-
-<ol>
-    <li>Suspension mounts must be able to hold up the weight of the rover, which interfaces at two 0.5in shoulder bolts (value 30kg total)</li>
-</ol>
+first design is meant to be a functional prototype. It is mechanically as simple as possible,
+using belt drive and very simple 3D prints with internal steel reinforcment. The electronics 
+stack is also simple, utilizing a raspberry pi for control and an arduino as a senor input 
+board. This settup allows me to develope and iterate on software that I can test on a working 
+stand. I plan to make future versions of this that are more mechanically advanced with custom
+electronics to reduce complexity and mounting space.
 
 ## Design Requirements ##
 
 <ol>
-    <li>Suspension mounts must be able to hold up the weight of the rover, which interfaces at two 0.5in shoulder bolts (value 30kg total)</li>
-    <li>The arm mount must withstand the loading from the arm, carrying a 5kg weight at full extension. (value 90Nm)</li>
-    <li>Provide an enclosed space for electronics that allows for easy removal of the electrical core.</li>
-    <li>Provide integrated panel mounts to run wiring to different parts of the rover.</li>
-    <li>Provide mounting for the onboard lab.</li>
-    <li>Provide mounting for cameras.</li>
+    <li>Must be able to withstand the loads of a 15 lb telescope moving at 5 deg per second</li>
+    
 </ol>
