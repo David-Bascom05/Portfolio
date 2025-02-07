@@ -1,4 +1,4 @@
-# Smart Telescope Prototype 2025 #
+# Smart Telescope Prototype 2024 #
 
 ## Overview ##
 
@@ -13,9 +13,43 @@ board. This settup allows me to develope and iterate on software that I can test
 stand. I plan to make future versions of this that are more mechanically advanced with custom
 electronics to reduce complexity and mounting space.
 
+<img src="/images/9jg4ao.gif" alt="Frame CAD" width="45%" />
+
 ## Design Requirements ##
 
 <ol>
     <li>Must be able to withstand the loads of a 15 lb telescope moving at 5 deg per second</li>
-    
+    <li>The system must be able to move to see any point in the sky</li>
+    <li>System must be as positionally accurate as possibe</li>
+        <ul>
+            <li>Actuators should have near zero backlash</li>
+            <li>Actuators should have position feedback</li>
+            <li>The system should be as mechanically stiff as possible</li>
+        </ul>
+    <li>The system must be able to detect its precise position on earth, current heading, and altitude</li>
+    <li>The system must be able to make real time astronomical calculations</li>
+    <li>All custom parts must be 3D printable</li>
 </ol>
+
+## Design ##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
