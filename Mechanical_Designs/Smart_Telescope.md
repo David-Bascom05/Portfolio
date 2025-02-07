@@ -34,7 +34,24 @@ electronics to reduce complexity and mounting space.
 ## Design ##
 
 ### Mechanical ###
+Smart telescopes generally use very short telescopes in order to simplify the mounting settup so that 
+the telescope can be mounted above the telescope without any risk of colision. My telescope was much 
+to long to do this, so the mounting point could not be directly over the first axis of rotation, inducing
+a large moment on the first rotational joint. Additionally, I choose brushless motors to drive this 
+system, as I already had them, and they met my needs for absolute position control when combined with
+encoder feedback. However, at the low speeds I needed to move at, I was encountering cogging that led to 
+poor performance.
 
+<img src="/images/Telescope Actuator.png" alt="Frame CAD" width="45%" />
+
+These two issues led be to design a modular belt drive actuator. This allowed me to runmy motors faster 
+to avoid cogging, while also allowing me to integrate berings on the output to handle the moment loads 
+without the load pathing though the motor. This actuator was used for both rotational joints of the mount.
+I used linear rods to reinforce the 3D print. This gave the actuators both the strength and regidity needed
+to use these as the main structure of the mount. This meant that all that was required to complete the 
+structure of the mount was 3D printed connectors between the actuators and clamps to hold the telescope itself.
+
+### Electrical ###
 
 
 
