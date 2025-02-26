@@ -53,7 +53,24 @@ structure of the mount was 3D printed connectors between the actuators and clamp
 
 ### Electrical ###
 
+The electrical system for this project was fairly rudimentry. A raspberry pi acted as the main computer for 
+the system, while an arduino was used to take input from the large array of sensors I used to calculate 
+position, heading, altitude, and location, current time, and level. The arduino comunicated with the pi over
+serial bus. In order to control the motors, I used two BLDC motor drivers with absolute magnetic encoders. 
+These comunicated directly with the pi over a FDCAN bus. I also used auxilary encoders on the belt output to
+disambiguate the output position during startup. The whole system was powered via a 24V lithium polymer battery.
+I plan to later move the arduino senors all on to a custom PCB that can also be put on the FDCAN network with
+the motor drivers, but this simple settup was used for the viability of the system.
 
+
+## Testing ##
+
+This mount performed very well for what it was. I was able to sucessfully control both axies to point at a requested
+celestial body without colision with the base of the mount. I also proved that reinforced 3D prints were more than 
+enough to hold the weight of the telescope and withstand the loads from moving to a new position. While this was a 
+sucess in that I was able to locate planets, it was hard to get a good image, as the output had some very small 
+oscilations that made it hard to focus. This can likly be fixed in the future with better tuning of the controller, 
+and potentially a higher reduction or stronger motors if controller tuning is not adiqate. 
 
 
 
