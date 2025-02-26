@@ -68,10 +68,12 @@ to the boards size.
 
 ## Testing ##
 
-During testing, the board performed very well. The first version had an inproperly sized 
-inductor on the buck converter. This caused ripple voltage on the 6V output, which was 
-later corrected. The board was successfully able to drive all 16 servos simultanously with 
-a high positional accuracy and low latency. The protetective meansures of the board also 
+During testing, the board performed very well. The first version had an issue with the feedback
+loop reference voltage in the layout, where I was accidentaly feeding a second input voltage into 
+the voltage divider. This casued the reference voltage to be incorrect when the input voltage to 
+the board was raised above 12V. Fortunately this issue was found and I am currently working on 
+fixing it in the next revision. The board was successfully able to drive all 16 servos simultanously 
+with a high positional accuracy and low latency. The protetective meansures of the board also 
 worked well, triggering the overcurrent protection before the 20A maximum of the board was
 reached. 
 
