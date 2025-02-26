@@ -10,6 +10,8 @@ was to miniaturize it and make it deployable off the back of a mobile robot. Thi
 allow for better comunications with mobile robots from beond line of sight and around 
 obsticals such as hills or buildings.
 
+<img src="/images/Repeater Module.jpg" />
+
 ## Design Requirements ##
 
 <ol>
