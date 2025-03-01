@@ -36,6 +36,8 @@ and connects to the network.
 
 ## Testing ##
 
+<img src="/images/9lwepf.gif" width="45%"/>
+
 During testing, all of these systems worked with over 95% reliability. The power-on system worked 
 for 100% of trials that were conducted, as well as linking to the network. The repeater itself 
 very rarely fell in an incorrect orientation, however even when the orientation was off it was 
