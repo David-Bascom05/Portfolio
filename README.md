@@ -1,7 +1,7 @@
 # Portfolio
 This repository is a compilation of the projects I have worked on, both as a part of my 
 academic carrier and personal projects that I have done. Click the links below to visit 
-featured projects
+featured projects, or explore more to see some of the other things that I have worked on.
 
 ### Mechanical ###
 <ol>
