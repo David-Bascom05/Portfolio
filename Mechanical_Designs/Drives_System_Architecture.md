@@ -1,16 +1,15 @@
 # Drives System Architecture 2024-2025 #
 
 ## Overview ##
-
-[![Watch the video](https://img.youtube.com/vi/HoFIuPtQGmM/0.jpg)](https://www.youtube.com/watch?v=HoFIuPtQGmM)
-
-
 The Cornell Mars Rover Drives team is responsible for all basic mechanical functionality of the rover's 
 systems. This includes the frame, suspension, wheels, electronics bay, and radio communication tower. 
 This year's drives system is designed to forgo the focus on climbing that drives systems traditionally 
 emphasize in favor of a faster, more maneuverable system. Additionally, this year we opted to keep the 
 arm on for all missions, meaning that drives needed to become lighter so as to not go over the weight 
 limit during the science mission.
+
+#### Click to Play Video ####
+[![Watch the video](https://img.youtube.com/vi/HoFIuPtQGmM/0.jpg)](https://www.youtube.com/watch?v=HoFIuPtQGmM)
 
 ## Changes from Previous Years ##
 
