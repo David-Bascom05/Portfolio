@@ -10,7 +10,7 @@ solid carbon fiber parts in complex geometries using 3D printed molds.
 
 ## Molding Procces ##
 
-The process I used is called compression molding. During the molding process, choped carbon 
+The process I used is called compression molding. During the molding process, chopped carbon 
 is placed in the mold, and covered in epoxy resin. This is repeated over and over, until the 
 carbon/epoxy mixture is equal to the mass of the desired part (as given by the CAD).
 
@@ -25,24 +25,24 @@ time for the excess epoxy in the mixture to escape.
 ## Mold Design ##
 
 As you can see from the images above, and the parts that were made from them, molds could be 
-used to create increadably complex geometry, with relatively little effort. The molds I 
+used to create incredibly complex geometry, with relatively little effort. The molds I 
 designed were 3D printed out of PETG. This was due to 3D printing being a very easy way to 
-make the complex geometry needed in manufactoring these, and PETG was choosen for its lack 
-of adhession to the epoxy I was using. The biggest drawback to using 3D printing was that 
+make the complex geometry needed in manufacturing these, and PETG was chosen for its lack 
+of adhesion to the epoxy I was using. The biggest drawback to using 3D printing was that 
 it was very weak, and would often break during the demolding process. This meant that molds
 were usually one time use. This was not a huge detriment however, as molds are very easy to 
 print. This did make demolding the part the most difficult part of the process, so designing 
 molds for part removal was key. Large draft angles on parts that slid past each other was
-critical to limit frction between walls of the mold. I also discovered that 3 piece molds 
-were much easier to take apart than 2 piece molds, as the parts no longer had to slide past
-each other, but could be pulled appart. 3 piece molds also allowed more gaps for excess epoxy 
-to escape, which was an added benifit.
+critical to limit friction between walls of the mold and the part. I also discovered that 3 
+piece molds were much easier to take apart than 2 piece molds, as the parts no longer had to 
+slide pasteach other, but could be pulled apart. 3 piece molds also allowed more gaps for 
+excess epoxy to escape, which was an added benefit.
 
 ## Testing ##
 
-To test the yeild strength of the forged parts, I made 3 dog bone samples, and ran a tensile 
-test on each one. The first test was done without the use of an extentiometer, so not strain
-data was collected in order to calculate youngs modulus.
+To test the yield strength of the forged parts, I made 3 dog bone samples and ran a tensile 
+test on each one. The first test was done without the use of an extensometer, so no strain 
+data was collected in order to calculate Young's modulus.
 
 <table style="width:100%; border-collapse: collapse;">
   <tr>
@@ -71,15 +71,20 @@ data was collected in order to calculate youngs modulus.
   </tr>
 </table>
 
-As you can see, the yeild stress and ultimate stress are basically the same from the measurments 
-we were able to take. The material is incredably brittle, however it does have a decently high 
-yeild point (just under half the yield stress of Aluminum at its best performance). However, 
-there was also a relatively high variance in this data. The first dog bone, which failed 
-substantually before the rest, had a very visable void along the fracture line, which I believe
-is why it failed at such a low value. I also believe that smaller voids were probably present in
-samples 2 and 3 as well, but not quite as obvious. This is 1) becuase of the substantual difference
-between the failure stresses of each part, and 2) because both fell short of the expected yeild 
-point. 
+As you can see, the yield stress and ultimate stress are basically the same from the 
+measurements we were able to take. The material is incredibly brittle; however, it does 
+have a decently high yield point (just under half the yield stress of Aluminum at its 
+best performance). However, there was also a relatively high variance in this data. The 
+first dog bone, which failed substantially before the rest, had a very visible void along 
+the fracture line, which I believe is why it failed at such a low value. I also believe 
+that smaller voids were probably present in samples 2 and 3 as well, but not quite as 
+obvious. This is 1) because of the substantial difference between the failure stresses 
+of each part, and 2) because both fell short of the expected yield point.
+
+From this testing, we decided that the process was not yet reliable enough to use on the 
+rover without a way to eliminate voids in the parts during the molding process. While it 
+did meet the minimum strength requirements we needed in these tests, the possibility that
+a large void could substantially weaken the part was too much of a risk. 
 
 From this testing, we decided that the process was not yet reliable enough to use on the rover 
 without a way to eliminate viods in the parts during the molding process. While it did meet the 
