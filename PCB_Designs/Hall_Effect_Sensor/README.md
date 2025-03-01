@@ -27,42 +27,42 @@ to the driver.
 
 ## Design ##
 
-The design is based around the DRV5033AJQDBZRQ1 Hall Effect chip. It is a non-latching 
-hall effect sesnor that is low when no magnetic field is detected. Other than that the 
+The design is based around the DRV5033AJQDBZRQ1 Hall Effect chip. It is a non-latching
+hall effect sensor that is low when no magnetic field is detected. Other than that the 
 design is very simple: a power and signal LED show the board state, and a JST connector
-provides power and connects the signal line from the moteus controller. the connector is
-a bit large for this board, but was chosen to match the contector on the moteus in order 
-to simplify wiring. Optional pin headers are also located on the back of the board to 
-give test points, or to allow this to be integrated with a different microcontroller. 
+provides power and connects the signal line from the moteus controller. The connector 
+is a bit large for this board, but was chosen to match the connector on the moteus in 
+order to simplify wiring. Optional pin headers are also located on the back of the board 
+to give test points, or to allow this to be integrated with a different microcontroller.
 
 ## Testing ##
 
 [![Hall Effect Testing](/images/Hall_Effect_Thumbnail.png)](https://youtu.be/xiG5vrSRzsc)
 
-To test, I started with the breadboard circuit in the video linked above. In this test,
-I was able to find a midpoint between two magnets, and use that midpoint as my zero. 
-This meathod of zeroing is used because the hall effect goes low as soon as it detects 
-a magnectic field, which means that it triggers just off the edge of the magnet by some 
-unknown amount. This could be measured, but it beleived it would be easier to use two 
-magnets, and have the offset cancel out. This implimentation has the added benifit of 
-also acting as a digital limit switch, which may be useful for projects where you need 
-to limit the range of motion on an acuator. 
+To test, I started with the breadboard circuit in the video linked above. In this test, I
+was able to find a midpoint between two magnets, and use that midpoint as my zero. This 
+method of zeroing is used because the hall effect goes low as soon as it detects a magnetic
+field, which means that it triggers just off the edge of the magnet by some unknown amount. 
+This could be measured, but it was believed it would be easier to use two magnets, and have
+the offset cancel out. This implementation has the added benefit of also acting as a digital 
+limit switch, which may be useful for projects where you need to limit the range of motion on
+an actuator.
 
 <img src="/images/Hall_Effect_Real_PCB.png" alt="Old Frame CAD" width="45%" style="transform: rotate(180 deg);" />
 
-In the above photo you can see my first two attempts at turning this into a custom board. 
-In the first itteration (Left) I used a logic inverter circuit to invert the signal coming 
-off the hall effect. I quickly realized however, that this extra circuit servered no real 
-purpose, and I was better of using the extra space for more pin headers to improve board 
-debuging and integration with other devices in the future. I implimented these changes in 
-version 2 (Right), and the changes actaully turned out to be very helpful when I needed to 
-use this with an arduino.
+In the above photo you can see my first two attempts at turning this into a custom board.
+In the first iteration (Left) I used a logic inverter circuit to invert the signal coming 
+off the hall effect. I quickly realized however, that this extra circuit served no real 
+purpose, and I was better off using the extra space for more pin headers to improve board 
+debugging and integration with other devices in the future. I implemented these changes in
+version 2 (Right), and the changes actually turned out to be very helpful when I needed to
+use this with an Arduino.
 
 Each version of this was cycle tested using the rig above, and a python script that I ran 
 to run 200, 500, 1000, and eventually 5,000 times. The python script moved the motor to a 
-random postition, ran the zero logic, and then compared the measured zero against the preset
-"correct" zero that was already set. In each senario, and for every board, I got approzimately 
-the same resaults:
+random position, ran the zero logic, and then compared the measured zero against the preset
+"correct" zero that was already set. In each scenario, and for every board, I got 
+approximately the same results:
 
 <table>
   <thead>
@@ -99,16 +99,16 @@ the same resaults:
   </tbody>
 </table>
 
-As you can see, on the 4:1 testing rig I used, this sensor was not quite accurate enough
-for my intended application. I tried various ways to improve the accuracy, but they did
-little or nothing to improve the data. I may have been able to achieve the accuracy I 
-needed with a higher reduction, but implimenting this on the system it was intended for 
-would have been cost prohibative, and I ultimately decided that using auxilary encoders
-was the more logical solution than continouing to itterate on this porject.
+As you can see, on the 4:1 testing rig I used, this sensor was not quite accurate enough for
+my intended application. I tried various ways to improve the accuracy, but they did little or
+nothing to improve the data. I may have been able to achieve the accuracy I needed with a higher
+reduction, but implementing this on the system it was intended for would have been cost prohibitive,
+and I ultimately decided that using auxiliary encoders was the more logical solution than continuing
+to iterate on this project.
 
-In the future if I was to revisit this protect, I would update it with a more precice 
-hall effect, and move the hall effect itself to the other side of the board to avoid 
-collision issues with the connector that came up in testing.
+In the future if I was to revisit this project, I would update it with a more precise hall effect,
+and move the hall effect itself to the other side of the board to avoid collision issues with the 
+connector that came up in testing.
 
 
 
