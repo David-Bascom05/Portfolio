@@ -4,5 +4,6 @@ academic carrier and personal projects that I have done. Click the links below t
 featured projects
 
 <ol>
-    <li>[Mars Rover Drives System](https://github.com/David-Bascom05/Portfolio/blob/main/Mechanical_Designs/Drives_System_Architecture.md#drives-system-architecture-2024-2025)</li>
+    <li><a href="https://github.com/David-Bascom05/Portfolio/blob/main/Mechanical_Designs/Drives_System_Architecture.md#drives-system-architecture-2024-2025">Mars Rover Drives System</a></li>
 </ol>
+
