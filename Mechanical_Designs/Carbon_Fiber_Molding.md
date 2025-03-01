@@ -86,9 +86,5 @@ rover without a way to eliminate voids in the parts during the molding process. 
 did meet the minimum strength requirements we needed in these tests, the possibility that
 a large void could substantially weaken the part was too much of a risk. 
 
-From this testing, we decided that the process was not yet reliable enough to use on the rover 
-without a way to eliminate viods in the parts during the molding process. While it did meet the 
-minimum strength requirements we needed in these tests, the posibility that a large void could 
-substantually weaken the part was too much of a risk.
 
 
