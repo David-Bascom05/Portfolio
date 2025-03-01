@@ -1,0 +1,279 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e8380e09-dbfb-452d-aae9-f4ebc3c118cf")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 154.94 17.78)
+		(size 66.04 41.91)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0bf7a470-b0fc-45a7-a27f-6e490d0a1f67")
+		(property "Sheetname" "FDCAN"
+			(at 154.94 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FDCAN.kicad_sch"
+			(at 154.94 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "V1.03"
+				(path "/e8380e09-dbfb-452d-aae9-f4ebc3c118cf"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 17.78)
+		(size 53.34 41.91)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c901882-c227-4237-b435-f0f817046458")
+		(property "Sheetname" "Sensors"
+			(at 223.52 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 223.52 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "V1.03"
+				(path "/e8380e09-dbfb-452d-aae9-f4ebc3c118cf"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 118.11)
+		(size 53.34 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "247d9d0a-07f9-4015-bbd1-0ac4e9a70cc5")
+		(property "Sheetname" "Test Points"
+			(at 223.52 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Test_Points.kicad_sch"
+			(at 223.52 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "V1.03"
+				(path "/e8380e09-dbfb-452d-aae9-f4ebc3c118cf"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 64.77)
+		(size 53.34 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "28d92497-364b-44d6-8481-c3724d04edf0")
+		(property "Sheetname" "Servo Pins"
+			(at 223.52 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Servo_Pins.kicad_sch"
+			(at 223.52 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "V1.03"
+				(path "/e8380e09-dbfb-452d-aae9-f4ebc3c118cf"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 17.78)
+		(size 54.61 95.25)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c758029-52cf-4f61-8cf4-8aa3c6645383")
+		(property "Sheetname" "PWM Chip"
+			(at 97.79 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PWM_Chip.kicad_sch"
+			(at 97.79 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "V1.03"
+				(path "/e8380e09-dbfb-452d-aae9-f4ebc3c118cf"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 17.78)
+		(size 76.2 95.25)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5422fb03-cc4f-4970-a22e-7c84ae687b87")
+		(property "Sheetname" "MCU"
+			(at 19.05 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 19.05 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "V1.03"
+				(path "/e8380e09-dbfb-452d-aae9-f4ebc3c118cf"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 64.77)
+		(size 66.04 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c317bb1-09bb-41d5-b1e6-b1301f356599")
+		(property "Sheetname" "Power"
+			(at 154.94 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 154.94 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "V1.03"
+				(path "/e8380e09-dbfb-452d-aae9-f4ebc3c118cf"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
