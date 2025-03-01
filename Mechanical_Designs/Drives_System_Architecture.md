@@ -22,6 +22,8 @@ pneumatic to 3D printed TPU. This allowed for a further reduction of weight.
 
 ### Suspension ###
 
+<img src="/images/PXL_20250221_224831193 (1).jpg" width="45%"/>
+
 This year's suspension features a damped 3-bar linkage with swerve drive to independently change the
 direction of each wheel. This change increased the overall stiffness of the system by bringing the 
 wheels closer to the frame. Reduced control arm lengths also reduced the effective loading on the 
