@@ -2,6 +2,9 @@
 
 ## Overview ##
 
+[![Watch the video](https://img.youtube.com/vi/HoFIuPtQGmM/0.jpg)](https://www.youtube.com/watch?v=HoFIuPtQGmM)
+
+
 The Cornell Mars Rover Drives team is responsible for all basic mechanical functionality of the rover's 
 systems. This includes the frame, suspension, wheels, electronics bay, and radio communication tower. 
 This year's drives system is designed to forgo the focus on climbing that drives systems traditionally 
