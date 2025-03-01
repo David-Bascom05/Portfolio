@@ -58,7 +58,7 @@ suspension and loading was modeled using a remote force on the area that the arm
 is bolted to the frame. The frame was found to have a factor of safety of 1.5 before
 yield, which was deemed to be acceptable due to the extreme conditions we modeled.
 
-## Testing and Opperation ##
+## Testing and Operation ##
 
 <img src="/images/9j2mvf.gif" alt="Old Frame CAD" width="45%" />
 
