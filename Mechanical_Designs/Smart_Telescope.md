@@ -2,16 +2,16 @@
 
 ## Overview ##
 
-This is a personal project that I worked on over the summer. Its objective is to replace 
-my current telescope mount with a motorized version that is capable of tracking and 
-targeting celectial bodies. I also want it to avoid as much of the manual calibration as
-possible that is inharent in many comersially available smart telescope designs. This 
-first design is meant to be a functional prototype. It is mechanically as simple as possible,
-using belt drive and very simple 3D prints with internal steel reinforcment. The electronics 
-stack is also simple, utilizing a raspberry pi for control and an arduino as a senor input 
-board. This settup allows me to develope and iterate on software that I can test on a working 
-stand. I plan to make future versions of this that are more mechanically advanced with custom
-electronics to reduce complexity and mounting space.
+This is a personal project that I worked on over the summer. Its objective is to replace my 
+current telescope mount with a motorized version that is capable of tracking and targeting 
+celestial bodies. I also want it to avoid as much of the manual calibration as possible that 
+is inherent in many commercially available smart telescope designs. This first design is 
+meant to be a functional prototype. It is mechanically as simple as possible, using belt 
+drive and very simple 3D prints with internal steel reinforcement. The electronics stack is 
+also simple, utilizing a Raspberry Pi for control and an Arduino as a sensor input board. This 
+setup allows me to develop and iterate on software that I can test on a working stand. I plan
+to make future versions of this that are more mechanically advanced with custom electronics to 
+reduce complexity and mounting space.
 
 <img src="/images/9jg4ao.gif" alt="Frame CAD" width="45%" />
 
@@ -34,44 +34,44 @@ electronics to reduce complexity and mounting space.
 ## Design ##
 
 ### Mechanical ###
-Smart telescopes generally use very short telescopes in order to simplify the mounting settup so that 
-the telescope can be mounted above the telescope without any risk of colision. My telescope was much 
-to long to do this, so the mounting point could not be directly over the first axis of rotation, inducing
-a large moment on the first rotational joint. Additionally, I choose brushless motors to drive this 
-system, as I already had them, and they met my needs for absolute position control when combined with
-encoder feedback. However, at the low speeds I needed to move at, I was encountering cogging that led to 
-poor performance.
+Smart telescopes generally use very short telescopes in order to simplify the mounting setup so that 
+the telescope can be mounted above the telescope without any risk of collision. My telescope was much
+too long to do this, so the mounting point could not be directly over the first axis of rotation, 
+inducing a large moment on the first rotational joint. Additionally, I chose brushless motors to drive
+this system, as I already had them, and they met my needs for absolute position control when combined 
+with encoder feedback. However, at the low speeds I needed to move at, I was encountering cogging that
+led to poor performance.
 
 <img src="/images/Telescope Actuator.png" alt="Frame CAD" width="45%" />
 
-These two issues led be to design a modular belt drive actuator. This allowed me to runmy motors faster 
-to avoid cogging, while also allowing me to integrate berings on the output to handle the moment loads 
-without the load pathing though the motor. This actuator was used for both rotational joints of the mount.
-I used linear rods to reinforce the 3D print. This gave the actuators both the strength and regidity needed
+These two issues led me to design a modular belt drive actuator. This allowed me to run my motors faster 
+to avoid cogging, while also allowing me to integrate bearings on the output to handle the moment loads
+without the load pathing through the motor. This actuator was used for both rotational joints of the mount.
+I used linear rods to reinforce the 3D print. This gave the actuators both the strength and rigidity needed
 to use these as the main structure of the mount. This meant that all that was required to complete the 
-structure of the mount was 3D printed connectors between the actuators and clamps to hold the telescope itself.
+structure of the mount was 3D printed connectors between the actuators and clamps to hold the telescope 
+itself.
 
 ### Electrical ###
 
-The electrical system for this project was fairly rudimentry. A raspberry pi acted as the main computer for 
-the system, while an arduino was used to take input from the large array of sensors I used to calculate 
-position, heading, altitude, and location, current time, and level. The arduino comunicated with the pi over
-serial bus. In order to control the motors, I used two BLDC motor drivers with absolute magnetic encoders. 
-These comunicated directly with the pi over a FDCAN bus. I also used auxilary encoders on the belt output to
+The electrical system for this project was fairly rudimentary. A Raspberry Pi acted as the main computer 
+for the system, while an Arduino was used to take input from the large array of sensors I used to calculate 
+position, heading, altitude, and location, current time, and level. The Arduino communicated with the Pi 
+over serial bus. In order to control the motors, I used two BLDC motor drivers with absolute magnetic encoders. 
+These communicated directly with the Pi over an FDCAN bus. I also used auxiliary encoders on the belt output to 
 disambiguate the output position during startup. The whole system was powered via a 24V lithium polymer battery.
-I plan to later move the arduino senors all on to a custom PCB that can also be put on the FDCAN network with
-the motor drivers, but this simple settup was used for the viability of the system.
+I plan to later move the Arduino sensors all onto a custom PCB that can also be put on the FDCAN network with
+the motor drivers, but this simple setup was used for the viability of the system.
 
 
 ## Testing ##
 
-This mount performed very well for what it was. I was able to sucessfully control both axies to point at a requested
-celestial body without colision with the base of the mount. I also proved that reinforced 3D prints were more than 
+This mount performed very well for what it was. I was able to successfully control both axes to point at a requested
+celestial body without collision with the base of the mount. I also proved that reinforced 3D prints were more than 
 enough to hold the weight of the telescope and withstand the loads from moving to a new position. While this was a 
-sucess in that I was able to locate planets, it was hard to get a good image, as the output had some very small 
-oscilations that made it hard to focus. This can likly be fixed in the future with better tuning of the controller, 
-and potentially a higher reduction or stronger motors if controller tuning is not adiqate. 
-
+success in that I was able to locate planets, it was hard to get a good image, as the output had some very small 
+oscillations that made it hard to focus. This can likely be fixed in the future with better tuning of the controller,
+and potentially a higher reduction or stronger motors if controller tuning is not adequate.
 
 
 
