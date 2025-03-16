@@ -52,7 +52,7 @@ int transmit_message(uint32_t ID, uint8_t* data, uint32_t frameType, uint32_t le
   * @retval void
   */
 
-extern void rxHandler0(uint32_t ID, uint8_t* data);
+extern void rxHandler0(uint32_t ID, uint64_t* data);
 
 
 
