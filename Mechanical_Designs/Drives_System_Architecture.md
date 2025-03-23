@@ -89,6 +89,8 @@ lower control arm seen above lacked ample contact points to ensure that the swer
 I worked to remide this issue by replacing the single clevis with two sheet metal plates, increasing the 
 torsional stiffness and eliminating the rotation issue. 
 
+<img src="/images/slallum.gif" width="45%"/>
+
 The changes to swerve previously meantioned allowed us to make sharp turns and manuvers without slowing the 
 rover down. Formerly, a direction change would involve almost a complete stop.
 
