@@ -68,10 +68,11 @@ of 3, however I could not figure out a way to do this without adding substantial
 During testing, the board performed very well. The first version had an issue with the feedback loop 
 reference voltage in the layout, where I was accidentally feeding a second input voltage into the voltage
 divider. This caused the reference voltage to be incorrect when the input voltage to the board was raised
-above 12V. Fortunately, this issue was found and I am currently working on fixing it in the next revision.
-The board was successfully able to drive all 16 servos simultaneously with a high positional accuracy and
-low latency. The protective measures of the board also worked well, triggering the overcurrent protection 
-before the 20A maximum of the board was reached.
+above 12V, or when currents above 100mA were drawn. Fortunately, this issue was found and I am currently 
+working on fixing it in the next revision. This led to the board malfunctioning when more than three servos 
+attempt to draw current simultanously, and drop below the required driving voltage. However, all other 
+functionality of the board was fully opperational. The protective measures of the board also 
+worked well, triggering the overcurrent protection during a short, and preventing unsafe opperation.
 
 
 
