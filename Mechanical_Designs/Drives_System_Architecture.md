@@ -32,7 +32,21 @@ required to go up steap inclines, failing on a slope over 30 degrees.
 In order to fix this, I choose to use much smaller external brushless motors and planetary gearboxes. 
 With a nominal torque of 2Nm and a 26:1 reduction, I was able to double the nominal torque output from 
 last year, while maintaining a high speed of up to 6m/s. Using external motors also allowed me to mount 
-absolute magnetic encoders to the motor shaft, eliminating our accuracy issues. 
+absolute magnetic encoders to the motor shaft, eliminating our accuracy issues. I choose to use planetary
+gearboxes, as a small amount of backlash was not an issue, and the reduction ratio I was after was most 
+commonly available in planetaries. Convineice was also a factor, and the company that made our motors,
+Maxon, also offered to provide us with a large discount on the gearboxes they made.
+
+<img src="/images/Wheel actuators.png" width="45%"/>
+
+The specific gearbox I choose, unfortunatly, did not have a high radial load capacity. This meant that 
+additional bearings after the output were required in order to transfer the load off the output shaft. 
+The output plate was set between two deep-groove ball bearings in order to reduce the moment and thrust 
+load on the gearbox in addition to the axial load they would be under. I also took great care in my 
+design to make assembly and manufactoring as easy as possible. It requires only 3 unique CNC parts, two 
+settups a piece. The rest of the parts are laser cut sheet metal. Special care was taken to ensure that 
+every screw is accessable without any disasembly, meanting that an part of the actuator stack can be removed
+and replaced without needing to disasemble any other part. 
 
 ### Suspension ###
 
