@@ -94,7 +94,13 @@ torsional stiffness and eliminating the rotation issue.
 The changes to swerve previously meantioned allowed us to make sharp turns and manuvers without slowing the 
 rover down. Formerly, a direction change would involve almost a complete stop.
 
+<img src="/images/Hill Climb.gif" width="45%"/>
 
+Ironically, despite deprioritizing climbing, the rover is still the best we have ever had when it comes to
+rough terain. While this aspect of performance has yet to be thouroghly tested, the rover has already demonstraited 
+the ability to climb both steep terrain and stairs, both functionalities that previous rovers did not have. 
+This does come with the caviat that the new suspension does not keep all wheels on the ground at all times, however 
+the increase in performance makes that loss of functionallity less critical.
 
 
 
