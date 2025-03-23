@@ -12,7 +12,9 @@ with humidity and CO2 sensors for the astrobiological technology subteam using a
 This was done to future reduce board count and enable easier integration of the off the shelf sensors.
 
 <img src="/images/Old_vs_new_BDC.jpg"  width="50%" />
-Left - Old Board        Right - New board
+Left - Old Board        
+
+Right - New board
 
 ## Design Requirements ##
 
