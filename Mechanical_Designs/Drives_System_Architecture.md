@@ -57,27 +57,40 @@ direction of each wheel. This change increased the overall stiffness of the syst
 wheels closer to the frame. Reduced control arm lengths also reduced the effective loading on the 
 suspension, allowing for a lighter overall design.
 
+<img src="/images/SwerveMoving.gif" width="45%"/>
+
 In previous years, swerve drive suffered from low speed, limiting responsiveness during driving. It 
 could take several seconds to turn the wheels 90 degrees, forcing the rover to slow down or stop in 
-order to make some maneuvers. This year, faster drone motors were selected, and the reduction on the 
-output was reduced, making it 4 times faster, and 0.5kg lighter per actuator. The new stack is 
-responsive enough to make sharp maneuvers during operation, and can do a complete 180 in less than one 
-second.
+order to make some maneuvers. This year, I selected smaller faster motors, and changed the reduction
+on the output from 100:1 to 50:1, making it 4 times faster, and 0.5kg lighter per actuator. The origional 
+design was done using the same motors and gearboxes as the lower arm for interoperabliity. I worked with the 
+arm lead to maintain interoperability, and choose an actuator design that would match the torque and 
+speed requirements for both swerve and the wrist. The new stack is responsive enough to make sharp maneuvers 
+during operation, and can do a complete 180 in less than one second.
 
 ### Frame ###
 
+<img src="/images/Drives chassis.jpg" width="45%"/>
+
 We built on our success from the sheet metal frame I had designed the previous year, modifying it to an 
 octagonal shape to support the new suspension. It was also made wider, to increase mounting space inside, 
-and unneeded support members were removed to reduce weight.
+and unneeded support members were removed to reduce weight. 
 
 
 ## Testing ##
 
-The rover has performed remarkably well in testing, despite still being in the first stage of its assembly.
-The changes to the wheels and swerve have yielded incredible improvements in responsiveness and handling, 
-allowing for much more precise maneuvering and better control at all speeds. The new suspension has exceeded 
-our expectations, and despite our focus on maneuverability, it has performed better than any other rover to 
-date in the climbing tasks.
+<p float="left">
+  <img src="/images/CF Link.jpg" width="45%" />
+  <img src="/images/sheet metal link.jpg" width="45%" />
+</p>
+
+The rover preformed very well during the first assembly, needing only minor modifications. The carbon fiber 
+lower control arm seen above lacked ample contact points to ensure that the swerve module would not rotate. 
+I worked to remide this issue by replacing the single clevis with two sheet metal plates, increasing the 
+torsional stiffness and eliminating the rotation issue. 
+
+The changes to swerve previously meantioned allowed us to make sharp turns and manuvers without slowing the 
+rover down. Formerly, a direction change would involve almost a complete stop.
 
 
 
