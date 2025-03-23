@@ -3,22 +3,36 @@
 ## Overview ##
 The Cornell Mars Rover Drives team is responsible for all basic mechanical functionality of the rover's 
 systems. This includes the frame, suspension, wheels, electronics bay, and radio communication tower. 
-This year's drives system is designed to forgo the focus on climbing that drives systems traditionally 
-emphasize in favor of a faster, more maneuverable system. Additionally, this year we opted to keep the 
-arm on for all missions, meaning that drives needed to become lighter so as to not go over the weight 
-limit during the science mission.
+As the drives lead, I was responsible for designing system archatecture, setting stratagy, ensuring that 
+all systems function properly, and handing unexpected deisgn chalenges. After seeing the competition, and 
+how notably flat most parts of it were the last two years, I choose to deemphisise climbing and refocus on
+speed and agility. Our astrotech subteam also choose to use the arm to collect soil samples this year, which
+meant that unlike in the past, the arm would be on for the science mission, and drives would have to loose 
+weight in order to accomidate this change.
 
 #### Click to Play Video ####
 [![Watch the video](https://img.youtube.com/vi/HoFIuPtQGmM/0.jpg)](https://www.youtube.com/watch?v=HoFIuPtQGmM)
 
-## Changes from Previous Years ##
+## Design ##
 
 ### Wheels ###
 
-Brushless Maxon motors and planetary gearboxes replaced the old hub motors driving the wheels. This 
-allowed us to keep a relatively high drive speed, while increasing controllability with absolute 
-magnetic encoders, and reducing weight by over 1kg per motor. We also transitioned the tires from 
-pneumatic to 3D printed TPU. This allowed for a further reduction of weight.
+My primary focus for this years rover was fixing the issues with the wheel actuators. Last year, we used 
+hub motors from hoverboards to drive the wheels. These had three large problems, the first being low speed 
+control. There was no way to mount encoders on the wheels with our electrical system, which meant that we
+were relying on the hall effects inside the motor to control them. These motors had no reduction at the 
+output, which meant that at low velocities the time between hall effect triggers could be quite long, leading 
+to inacuracies and incredably poor low speed control. The second issue was the weight. The motors were
+massive, each weighing 3.2kg. In total the wheels alone were 26% of our entire weight budget. This caused
+us to go overweight at competition by 3kg, incuring a penality. Finally, the motors lacked the torque 
+required to go up steap inclines, failing on a slope over 30 degrees.
+
+<img src="/images/Wheel.jpg" width="45%"/>
+
+In order to fix this, I choose to use much smaller external brushless motors and planetary gearboxes. 
+With a nominal torque of 2Nm and a 26:1 reduction, I was able to double the nominal torque output from 
+last year, while maintaining a high speed of up to 6m/s. Using external motors also allowed me to mount 
+absolute magnetic encoders to the motor shaft, eliminating our accuracy issues. 
 
 ### Suspension ###
 
