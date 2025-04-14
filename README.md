@@ -15,4 +15,5 @@ featured projects, or explore more to see some of the other things that I have w
 <ol>
     <li><a href="https://github.com/David-Bascom05/Portfolio/tree/main/Coding/FDCAN_Driver">CANFD Driver</a></li>
     <li><a href="https://github.com/David-Bascom05/Portfolio/tree/main/PCB_Designs/Servo_Driver">Servo Driver PCB</a></li>
+    <li><a href=https://github.com/David-Bascom05/Portfolio/blob/Updates/PCB_Designs/Brushed_Motor_Board">Brushed Motor Driver PCB</a></li>
 </ol>
