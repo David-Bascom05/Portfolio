@@ -62,16 +62,6 @@ the largest being that the main 12V line to the motor outputs has to run on a si
 issues during an unexpected high load. The large number of ICs on this board also forced me to use the second layer 
 rather extensively for signal roughting, causing there to be many large cuts in the ground plane.
 
-## Firmware ##
-
-Full information on the firmware can be found 
-
------here-----
-
-aditionally, informwation about software integration in python can be found 
-
------here-----
-
 ## Testing ## 
 
 On the first version of the board, the footprints for the shotkey diode and mosfet in the buck converter had incorect 
